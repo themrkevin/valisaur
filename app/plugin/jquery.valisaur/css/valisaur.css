@@ -1,0 +1,19 @@
+.valisaur input {
+	position: relative;
+	display: block;
+}
+.valisaur input:focus {
+	outline: none;
+}
+.valisaur .valifail {
+	/*border: 1px solid red;*/
+	background: url(../img/faces-02.png) #ffffff 97% center no-repeat;
+
+}
+.valisaur .valiyay {
+	/*border: 1px solid green;*/
+	background: url(../img/faces-01.png) #ffffff 97% center no-repeat;
+}
+.valisaur .form-ready {
+	border: 1px solid #dba5a5;
+}
