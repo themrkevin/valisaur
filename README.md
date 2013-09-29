@@ -16,8 +16,8 @@ phoneRegex:
 emailRegex: 
 //Takes in a Regular Expressions. Default is standard email regex.
 
-require: '*' //String used to distinguish required fields. Takes a special 'all' string to add a all fields required message.
+require: '*' 
+//String used to distinguish required fields. Takes a special 'all' string to add a all fields required message.
 
-requireAll: false //Boolean. Will set all fields as required.
-
-requireAll: 
+requireAll: false 
+//Boolean. Will set all fields as required.
