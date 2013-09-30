@@ -1,11 +1,36 @@
-valisaur
+Valisaur
 ========
 
-jQuery Plugin: Form Validation and Extra stuff
+## jQuery Plugin: Form Validation and Extra stuff
 
-**Note: This is work in progress. I haven't considered much about selection fields and junk like that. Just wanted to make a basic validation tool for fun.
+> Note: This is work in progress. I haven't considered much about selection fields and junk like that. Just wanted to make a basic validation tool for fun.
 
-Options {}
+## Using the plugin
+
+Include the stylesheet in the header:
+```html
+<link rel="stylesheet" href="valisaur.css">
+```
+Include the javascript files before any custom JS:
+```html
+<script src="jquery.js"></script>
+<script src="jquery.valisaur.js"></script>
+<script>
+$('form').valisaur();
+</script>
+```
+
+## Options {}
+
+Use options to customize some of the fancy stuff.
+```html
+<script>
+$('form').valisaur({
+	option1: value1,
+	option2: value2
+});
+</script>
+```
 
 failMessage: 'is a required field' 
 //Takes a string and handles the error message on fail. Currently only being used at console log, but I'll figure out how I wanna use it later.
