@@ -23,13 +23,11 @@ $('form').valisaur();
 ## Options {}
 
 Using options to customize some of the fancy stuff.
-```html
-<script>
+```javascript
 $('form').valisaur({
 	option1: value1,
 	option2: value2
 });
-</script>
 ```
 
 ```javascript
