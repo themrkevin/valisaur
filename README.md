@@ -32,8 +32,7 @@ $('form').valisaur({
 </script>
 ```
 
-```html
-<script>
+```javascript
 failMessage: 'is a required field',
 //String. Handles the error message on fail. Currently only being used at console log, but I'll figure out how I wanna use it later.
 
@@ -49,5 +48,4 @@ require: '*',
 
 requireAll: false 
 //Boolean. Will set all fields as required.
-</script>
 ```
