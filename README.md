@@ -22,7 +22,7 @@ $('form').valisaur();
 
 ## Options {}
 
-Use options to customize some of the fancy stuff.
+Using options to customize some of the fancy stuff.
 ```html
 <script>
 $('form').valisaur({
@@ -32,17 +32,22 @@ $('form').valisaur({
 </script>
 ```
 
-failMessage: 'is a required field' 
-//Takes a string and handles the error message on fail. Currently only being used at console log, but I'll figure out how I wanna use it later.
+```html
+<script>
+failMessage: 'is a required field',
+//String. Handles the error message on fail. Currently only being used at console log, but I'll figure out how I wanna use it later.
 
-phoneRegex: 
-//Takes in a Regular Expressions. Default is set to US phone #s.
+phoneRegex: ,
+//Regular Expressions. Default is set to US phone #s.
 
-emailRegex: 
-//Takes in a Regular Expressions. Default is standard email regex.
+emailRegex: ,
+//Regular Expressions. Default is standard email regex.
 
-require: '*' 
-//String used to distinguish required fields. Takes a special 'all' string to add a all fields required message.
+require: '*',
+//String. Used to distinguish required fields.
+//Takes a special 'all' string to add a all fields required message.
 
 requireAll: false 
 //Boolean. Will set all fields as required.
+</script>
+```
